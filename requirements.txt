@@ -1,0 +1,11 @@
+requests 
+bs4
+# time
+# re
+# random 
+# warnings
+# time
+# IPython.core.display
+# numpy
+# pandas
+# datetime
