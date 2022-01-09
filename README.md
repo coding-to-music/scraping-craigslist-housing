@@ -1,5 +1,7 @@
 # Scraping Craigslist Housing
 
+https://github.com/angelicadietzel/scraping-craigslist-housing
+
 ## Table of Contents
 * [Objective](#objective)
 * [Technologies](#technologies)
