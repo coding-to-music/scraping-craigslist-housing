@@ -1,5 +1,6 @@
 # Scraping Craigslist Housing
 
+
 https://github.com/angelicadietzel/scraping-craigslist-housing
 
 https://betterprogramming.pub/the-only-step-by-step-guide-youll-need-to-build-a-web-scraper-with-python-e79066bd895a
