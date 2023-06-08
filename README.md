@@ -1,19 +1,21 @@
 # Scraping Craigslist Housing
 
-
 https://github.com/angelicadietzel/scraping-craigslist-housing
 
 https://betterprogramming.pub/the-only-step-by-step-guide-youll-need-to-build-a-web-scraper-with-python-e79066bd895a
 
 ## Table of Contents
-* [Objective](#objective)
-* [Technologies](#technologies)
-* [Data Sets](#data-sets)
+
+- [Objective](#objective)
+- [Technologies](#technologies)
+- [Data Sets](#data-sets)
 
 ## Objective
+
 The purpose of this project is to teach you how to scrape housing data from Craigslist.
 
 ## Technologies
+
 - Jupyter Notebook
 - pandas
 - NumPy
@@ -21,7 +23,8 @@ The purpose of this project is to teach you how to scrape housing data from Crai
 - BeautifulSoup
 
 ## Data Sets
-- A [data set](https://github.com/angelicadietzel/scraping-craigslist-housing/blob/main/scraping_craigslist_housing/phx_apts.csv) containing the data that I scraped from Phoenix area housing posts on Craigslist. 
+
+- A [data set](https://github.com/angelicadietzel/scraping-craigslist-housing/blob/main/scraping_craigslist_housing/phx_apts.csv) containing the data that I scraped from Phoenix area housing posts on Craigslist.
 
 ## Installing Beautiful Soup
 
@@ -30,16 +33,23 @@ https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup
 ```java
 sudo apt-get update -y
 
+sudo apt-get install python3
+
 sudo apt-get install python3-bs4
+
+sudo apt-get pip
 
 sudo pip install numpy
 
 sudo pip install pandas
 
+pip install ipykernel
+
 sudo apt-get install -y ipython3
 
-```
 
+
+```
 
 ## Installing Python Dependencies locally in project
 
@@ -73,9 +83,8 @@ pip install -r requirements.txt
 
 Then any time you return to the project, run source env/bin/activate again so that the dependencies can be found.
 
-When you deploy your program, if the deployed environment is a physical server, or a virtual machine, you can follow the same process on the production machine. If the deployment environment is one of a few serverless environments (e.g. GCP App Engine), supplying a requirements.txt file will be sufficient. For some other serverless environments (e.g. AWS Lambda) the dependencies will need to be included in the root directory of the project. In that case, you should use 
+When you deploy your program, if the deployed environment is a physical server, or a virtual machine, you can follow the same process on the production machine. If the deployment environment is one of a few serverless environments (e.g. GCP App Engine), supplying a requirements.txt file will be sufficient. For some other serverless environments (e.g. AWS Lambda) the dependencies will need to be included in the root directory of the project. In that case, you should use
 
 ```java
 pip install -r requirements.txt -t ./.
 ```
-
