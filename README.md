@@ -47,8 +47,13 @@ pip install ipykernel
 
 sudo apt-get install -y ipython3
 
+```
 
+## Install vscode extensions
 
+```java
+python (microsoft)
+jupyter (microsoft)
 ```
 
 ## Installing Python Dependencies locally in project
@@ -64,6 +69,10 @@ pip install virtualenv
 Then create a virtual environment in your project directory:
 
 ```java
+apt install python3.8-venv
+
+python -m venv env
+
 python3 -m venv env # previously: `virtualenv env`
 ```
 
