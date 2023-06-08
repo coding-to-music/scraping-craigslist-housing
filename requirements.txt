@@ -2,6 +2,7 @@ requests
 bs4
 pandas
 datetime
+pymongo
 # time
 # re
 # random 
