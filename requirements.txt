@@ -1,5 +1,7 @@
 requests 
 bs4
+pandas
+datetime
 # time
 # re
 # random 
@@ -7,5 +9,3 @@ bs4
 # time
 # IPython.core.display
 # numpy
-# pandas
-# datetime
