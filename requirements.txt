@@ -3,6 +3,9 @@ bs4
 pandas
 datetime
 pymongo
+ipython
+os
+
 # time
 # re
 # random 
