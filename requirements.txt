@@ -4,8 +4,9 @@ pandas
 datetime
 pymongo
 ipython
-os
+psycopg2
 
+# os
 # time
 # re
 # random 
